@@ -1,6 +1,5 @@
 import { forwardRef,useEffect } from "react";
-import './public/css/project.css'
-// import '/public/css/project.css'
+import '../../public/css/project.css'
 import portfolioImage from "../../public/images/porfoliopic.png"
 import SignallingImage from "../../public/images/signalingServer.png"
 import Up from '../scrollup';

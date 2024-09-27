@@ -1,5 +1,4 @@
-// import '../../public/css/about.css'
-import './public/css/about.css'
+import '../../public/css/about.css'
 import myImg from '../../public/images/NikhilImg.png'
 import { forwardRef } from 'react'
 import Up from '../scrollup';
