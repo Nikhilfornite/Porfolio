@@ -1,5 +1,5 @@
 // import '.././public/css/scrollup.css'
-import '/css/scrollup.css'
+import './public/css/scrollup.css'
 const Up = ()=>{
     return (
         <>

@@ -1,5 +1,5 @@
 // import '../../public/css/landing.css'
-import '/css/landing.css'
+import './public/css/landing.css'
 const Elements = ()=>(
     <div className="nav-container">
     <a id="skills" href='#main-div'>Skills</a>
