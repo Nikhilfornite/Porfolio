@@ -1,0 +1,104 @@
+#project-container{
+    opacity: 0;
+    height: 98vh;
+    width: 98vw;
+    position: relative;
+    transition: all 1s ease 0.3s;
+}
+
+.Pro-heading{
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pro-heading h3{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 0;
+    letter-spacing: 0.2vmin;
+}
+
+.Pro-heading h1{
+    color: white;
+    font-size: 2.5vmax;
+    font-weight: normal;
+    letter-spacing: 0.5vmin;
+}
+
+.pro-card1{
+    width: 25%;
+    height: 65%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2%;
+    align-items: center;
+    border-radius: 20px;
+    transform: translateX(-190%);
+    transition: all 0.5s linear 0.2s;
+}
+
+.pro-card2{
+    width: 25%;
+    height: 65%;
+    position: absolute;
+    top: 25%;
+    left:55% ;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2%;
+    align-items: center;
+    border-radius: 20px;
+    transform: translateX(190%);
+    transition: all 0.5s linear 0.2s;
+}
+
+.projectPic{
+    box-sizing: border-box;
+    margin-top: 5%;
+    width: 80%;
+    height: 65%;
+    object-fit: contain;
+    border-radius: 20px;
+    background-color: rgb(29, 213, 213);
+}
+
+.pro-name{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    letter-spacing: 0.3vmin;
+}
+
+.btn-container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+}
+.pro-btns{
+height: 80%;
+background-color: white;
+border: 1px black solid;
+width: 30%;
+border-radius: 40px;
+cursor: pointer;
+font-size: 1.5vmin;
+font-weight: 600;
+}
+
+.pro-btns:hover{
+    background-color: rgb(128, 238, 238);
+}

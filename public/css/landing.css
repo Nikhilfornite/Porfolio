@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav-container{
+    width: 98vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5em;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+.nav-container > a{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    z-index: 2;
+    transition: all 0.5s;
+    color: whitesmoke;
+}
+
+
+.nav-container > a:hover{
+    transform: scale(1.2);
+}
+
+.outer-container-intro{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.Intro-container{
+    height:80vh;
+    width: 98vw;
+    display: flex;
+    gap: 2%;
+    position: relative;
+}
+.inner-intro-container{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    flex-shrink: 1;
+}
+.image-container{
+    min-width: 30%;
+    width: 33%;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+}
+.hello{
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 8vmin;
+}
+.myself{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+
+.name{
+    color: Red;
+}
+
+.specifications{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top:60%;
+    left: 5%;
+
+}
+.specifications h2{
+ border-right: 2px white solid;
+ font-size: 2vw;
+ color: red;
+ padding-right: 10px;
+ flex-shrink: 1;
+}
+#profile-pic{
+width: 100%;
+height: 85%;
+position: absolute;
+/* top: -15%; */
+top: 0%;
+}
+.resume-dwn{
+    height: 10vh;
+    display: flex;
+    gap: 3%;
+    position: relative;
+    bottom: 100px;
+}
+
+.download-resume{
+    text-decoration: none;
+    background: linear-gradient(to right,yellow ,orange);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7), 0 0 30px rgba(255, 0, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.3);
+    height: 70%;
+    width: 10%; 
+    display: flex;
+    margin-left: 3.5%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 600;
+}
+
+.certification{
+    width: 12%;
+    margin-left: 0px;
+   
+}
+
+.download-resume:hover{
+    background: linear-gradient(to right,rgb(6, 220, 227),white);
+    box-shadow: 0 0 20px rgba(6, 218, 229, 0.7), 0 0 30px rgba(10, 119, 215, 0.5), 0 0 40px rgba(233, 233, 237, 0.3);
+}
+
+@media (min-width:610px) and (max-width:1024px){
+    .Intro-container{
+        flex-direction: column;
+        gap: 10%;
+        align-items: center;
+        opacity: 0;
+    }
+    .inner-intro-container{
+        width: 100%;
+        height: 40%;
+    }
+    .image-container{
+        max-width: 40%;
+        height: 35%;
+        box-shadow: 10px 10px 15px;
+        border-radius: 48%;
+    }
+    #profile-pic{
+        height: 100%;
+        top: -15%
+    }
+    .specifications h2{
+        font-size: 1.2em;
+    }
+    .myself{
+        font-size:2em ;
+        top: 55%;
+    }
+    .specifications{
+        top: 100%;
+    }
+}
+
+@media (min-width:420px) and (max-width:609px){
+    .Intro-container{
+        flex-direction: column;
+        gap: 6%;
+        align-items: center;
+    }
+    .inner-intro-container{
+        width: 100%;
+        height: 40%;
+    }
+    .image-container{
+        width: 50%;
+        height: 35%;
+        box-shadow: 10px 10px 15px;
+        border-radius: 50%;
+    }
+    #profile-pic{
+        height: 100%;
+        top: -15%
+    }
+    .specifications h2{
+        font-size: 1.5em;
+    }
+    .myself{
+        font-size:2em ;
+    }
+    .specifications{
+        top: 80%;
+    }
+
+}

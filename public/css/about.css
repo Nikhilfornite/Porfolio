@@ -1,0 +1,201 @@
+#about-container{
+    height: 100vh;
+    width: 98vw;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#inner-about-container{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+    align-items: center;
+}
+
+.profile-container{
+    padding-top: 5%;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    gap: 1%;
+}
+
+.profile-card{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-img{
+    height: 70%;
+    width: 55%;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: rgb(163, 198, 229);
+    position: relative;
+    border: 10px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myImage{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    background-color: aliceblue;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgb(58, 58, 60);
+}
+
+.social-connect{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.socials{
+    width: 10%;
+    height: 60%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,grey,rgb(56, 53, 53));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topics-of-interest h2{
+    font-weight: normal
+}
+.topics li{
+ font-size: 1.2vmax;
+}
+
+.me-lines h3{
+    font-size:  1.2vmax;
+    text-align: justify;
+    line-height: 2rem;
+    font-weight: normal;
+}
+
+.me-lines span{
+    font-size: 1.3vmax;
+    font-weight: 700;
+}
+
+.insta{
+    background: linear-gradient(145deg,rgb(236, 9, 236) 40%,pink);
+}
+.linkedin{
+    background: rgb(0, 64, 255);
+}
+.socials a i{
+    font-size: 2vmax;
+}
+.content-sec{
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.content-sec h2{
+    font-size: 1.5vmax;
+}
+.content-sec p{
+    text-align: justify;
+    line-height: 1.5vw;
+    font-size: 1.5em;
+}
+
+.hobbies{
+    width: 60%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    align-items: center;
+}
+
+.hobbies h2{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3%;
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.setone{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    height: 30%;
+    justify-content: center;
+}
+
+.settwo{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+   height: 30%;
+   justify-content: center;
+}
+.thing1{
+    width: 20%;
+    height: 70%;
+    flex-shrink: 1;
+    font-size: 1.3vw;
+    text-align: center;
+    color: rgb(27, 25, 25);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.thing2{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    font-size: 1.5vw;
+    flex-shrink: 1;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+}
+
+@media (min-width:1024px) and (max-width:2570){
+    .profile-img{
+        width: 63%;
+    }
+    .socials{
+        width: 11%;
+    }
+}
