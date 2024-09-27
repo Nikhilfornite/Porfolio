@@ -1,4 +1,5 @@
-import '../../public/css/contact.css'
+// import '../../public/css/contact.css'
+import '/css/contact.css'
 import { useRef,useEffect,useState,forwardRef } from 'react';
 import emailjs from '@emailjs/browser'
 import Up from '../scrollup';

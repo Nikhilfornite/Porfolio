@@ -1,4 +1,5 @@
-import '/public/css/skill.css'
+// import '/public/css/skill.css'
+import '/css/skill.css'
 import { useEffect,forwardRef } from 'react';
 import htmlImage from '../../public/images/html.png';
 import cssImage from '../../public/images/css.png';
