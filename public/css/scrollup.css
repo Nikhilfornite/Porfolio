@@ -19,7 +19,7 @@
     color: white;
 }
 
-@media (min-width:310px) and (max-width:430px){
+@media (min-width:310px) and (max-width:435px){
 
     .scroll-up{
         display: none;

@@ -141,7 +141,7 @@ top: 0%;
     box-shadow: 0 0 20px rgba(6, 218, 229, 0.7), 0 0 30px rgba(10, 119, 215, 0.5), 0 0 40px rgba(233, 233, 237, 0.3);
 }
 
-@media (min-width:310px) and (max-width:430px){
+@media (min-width:310px) and (max-width:435px){
     .nav-container{
         width: 100vw;
         height: 10vh;
