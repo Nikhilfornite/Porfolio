@@ -43,7 +43,7 @@ const HeadingComponent = ()=>{
                         entry.target.style.opacity = "1";
                         const { topinc, leftinc } = getUpdatedLayout();
                         cards.map((card,index)=>{
-                            if (screenWidth >= 310 && screenWidth <= 430) {
+                            if (screenWidth >= 310 && screenWidth <= 440) {
                                 if(index>1){
                                     card.style.opacity=1;
                                     card.style.top = `${topinc[index]}%`;
