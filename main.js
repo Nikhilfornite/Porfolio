@@ -17,19 +17,8 @@ const HeadingComponent = ()=>{
     const contactRef = useRef(null)
     const aboutRef = useRef(null)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-    const getUpdatedLayout = () => {
-        if (screenWidth >= 310 && screenWidth <= 430) {
-            return {
-                topinc : [0,0,10, 10, 40, 40, 70, 70],
-                leftinc : [5, 57, 5, 57, 5, 57, 5, 57],
-            };
-        } else {
-            return {
-                topinc: [18, 18, 18, 18, 62, 62, 62, 62],
-                leftinc: [13, 33, 53, 73, 13, 33, 53, 73],
-            };
-        }
-    };
+    let topinc=[18, 18, 18, 18, 62, 62, 62, 62];
+    let leftinc=[13, 33,53, 73, 13, 33, 53, 73];
 
     useEffect(()=>{
         setScreenWidth(window.innerWidth);
@@ -41,9 +30,10 @@ const HeadingComponent = ()=>{
                     const cards = Array.from(cardQuery);
                     if(entry.isIntersecting){
                         entry.target.style.opacity = "1";
-                        const { topinc, leftinc } = getUpdatedLayout();
                         cards.map((card,index)=>{
                             if (screenWidth >= 310 && screenWidth <= 440) {
+                                topinc = [0,0,10, 10, 40, 40, 70, 70];
+                                leftinc = [5, 57, 5, 57, 5, 57, 5, 57];
                                 if(index>1){
                                     card.style.opacity=1;
                                     card.style.top = `${topinc[index]}%`;
