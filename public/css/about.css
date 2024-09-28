@@ -199,3 +199,81 @@
         width: 11%;
     }
 }
+
+@media (min-width:310px) and (max-width:435px){
+    #about-container{
+        opacity: 0;
+        width: 100vw;
+    }
+    #inner-about-container{
+        position: relative;
+        top: 0%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .profile-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .profile-card{
+        width: 100%;
+    }
+    .profile-img{
+        width: 60%;
+        height: 100%;
+    }
+    .social-connect{
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+    
+    .socials{
+        height: 35px;
+        width: 35px;
+    }
+    .socials a i{
+        font-size: 25px;
+       
+    }
+    .content-sec{
+        margin: 0px;
+        width: 90%;
+    }
+    .content-sec h2{
+        font-size: 2.5vmax;
+    }
+
+    .me-lines h3{
+        font-size: 12px;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+    }
+    .topics-of-interest{
+        display: none;
+    }
+    .hobbies{
+        height: 20%;
+        width: 100%;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 0%;
+    }
+    .hobbies h2{
+        font-size: 20px;
+    }
+    .setone{
+        width: 100%;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .thing1{
+        font-size: 12px;
+    }
+    .thing2{
+        font-size: 12px;
+    }
+    
+}

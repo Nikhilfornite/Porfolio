@@ -222,3 +222,42 @@ i{
     }
 }
 
+@media (min-width:310px) and (max-width:435px){
+    #contact-container{
+        opacity: 0;
+    }
+    .contact-heading h1{
+        font-size: 30px;
+    }
+    .contact-heading h3{
+        font-size: 20px;
+    }
+    .inner-contact-container{
+        height: 98%;
+        gap: 5%;
+    }
+    .form-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .base-info{
+        display: none;
+    }
+    .form-data{
+        width: 80%;
+    }
+    label{
+        font-size: medium;
+    }
+    .middle{
+        display: none;
+    }
+    .install-container{
+        top: 90%;
+        left: 70%;
+        width: 30%;
+        height: 50%;
+    }
+}

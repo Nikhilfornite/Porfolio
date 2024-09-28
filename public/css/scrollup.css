@@ -18,3 +18,10 @@
     background-color: rgb(199, 194, 189);
     color: white;
 }
+
+@media (min-width:310px) and (max-width:430px){
+
+    .scroll-up{
+        display: none;
+    }
+}

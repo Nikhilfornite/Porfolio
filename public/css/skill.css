@@ -139,3 +139,39 @@
         transform: rotate(-360deg);
     }
 }
+
+@media (min-width:310px) and (max-width:435px){
+    #main-div{
+        height: 95vh;
+    }
+    #card-container{
+        height: 98%;
+    }
+ 
+    .card{
+       width: 40%;
+       height: 25%;
+    }
+    .skill-label{
+        width: 30%;
+        left: 35%;
+    } 
+
+    .front h2{
+        font-size: 20px;
+    }
+    .back{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .back-content{
+        height: 100%;
+        max-height: 90%;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+}
+
