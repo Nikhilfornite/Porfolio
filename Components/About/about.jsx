@@ -13,9 +13,9 @@ const About = forwardRef((_,ref)=>{
                         <img className='myImage' src={myImg} alt="profilepic" />
                     </div>
                     <div className="social-connect">
-                        <div className='socials insta'><a className='social-anchor' href="https://www.instagram.com/nikhildevika2003/"><i className='bx bxl-instagram-alt'></i></a></div>
-                        <div className='socials linkedin'><a className='social-anchor' href="https://www.linkedin.com/in/nikhilam2003/"><i className='bx bxl-linkedin-square' ></i></a></div>
-                        <div className='socials'><a className='social-anchor' href="https://github.com/Nikhilfornite//"><i className='bx bxl-github' ></i></a></div>
+                        <div className='socials insta'><a className='social-anchor' target="_blank" rel="noopener noreferrer"  href="https://www.instagram.com/nikhildevika2003/"><i className='bx bxl-instagram-alt'></i></a></div>
+                        <div className='socials linkedin'><a className='social-anchor' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nikhilam2003/"><i className='bx bxl-linkedin-square' ></i></a></div>
+                        <div className='socials'><a className='social-anchor' target="_blank" rel="noopener noreferrer"  href="https://github.com/Nikhilfornite//"><i className='bx bxl-github' ></i></a></div>
                     </div>
                 </div>
                 <div className="content-sec">
